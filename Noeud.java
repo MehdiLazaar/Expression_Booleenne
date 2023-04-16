@@ -1,5 +1,5 @@
 /**
- * @author Lazaar El Mahdi
+ * @author Lazaar Mehdi
  * @version Avril 2023
  */
 public class Noeud{

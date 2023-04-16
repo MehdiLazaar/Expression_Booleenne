@@ -1,3 +1,7 @@
+/**
+ * @author Lazaar Mehdi
+ * @version Avril 2023
+ */
 public class ExpressionBool{
 	protected Noeud racine;
     //Les constructeurs
