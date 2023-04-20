@@ -108,8 +108,9 @@ public class ExpressionBool{
         for(char i = 'a'; i <= 'e' && j < 5; i++, j++){
             System.out.println("La valeur de " + i + " est : " + vect1[j]);
         }
-        //OU = disjonction  + v
-        //ET = conjonction  . ^
+        //OU = disjonction  (+)(v)
+        //ET = conjonction  (.)(^)
+        //NON = négation    (!)(¬)
         //On étudie l'expression suivante : ¬(( ¬a ∧ (c ∨ a))
         ExpressionBool expression1 = a.negation();
         ExpressionBool expression2 = c.disjonction(a);
